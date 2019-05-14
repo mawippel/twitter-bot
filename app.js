@@ -8,4 +8,4 @@ app.listen(server_port, server_host, function() {
 	console.log(`Application is up on port ${server_port}.`);
 });
 
-cliente.tweetar(`I'm the brand new Marcelo's Twitter Bot`);
+cliente.tweetar(`Hello! I'm the new Marcelo's Twitter Bot`);

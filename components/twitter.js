@@ -7,9 +7,9 @@ const cliente = new Twitter({
 	access_token_secret: process.env.access_token_secret
 });
 
-cliente.tweetar = function(tweet) {
+cliente.tweetar = (tweet) => {
 	console.log("tweet=", tweet);
-	client.post("statuses/update", { status: tweet }, function(
+	cliente.post("statuses/update", { status: tweet }, function(
 		error,
 		tweet,
 		response
